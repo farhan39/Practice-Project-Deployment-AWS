@@ -1,9 +1,9 @@
 import sys
 import pytest
 
-from project_name import create_app
-from project_name.ext.commands import populate_db
-from project_name.ext.database import db
+from practice_project_deployment_aws import create_app
+from practice_project_deployment_aws.ext.commands import populate_db
+from practice_project_deployment_aws.ext.database import db
 
 
 @pytest.fixture(scope="session")

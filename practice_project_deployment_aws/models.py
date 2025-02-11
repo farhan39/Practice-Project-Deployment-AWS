@@ -1,6 +1,6 @@
 from sqlalchemy_serializer import SerializerMixin
 
-from project_name.ext.database import db
+from practice_project_deployment_aws.ext.database import db
 
 
 class Product(db.Model, SerializerMixin):

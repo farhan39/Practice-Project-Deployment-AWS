@@ -1,8 +1,8 @@
 import click
 
-from project_name.ext.auth import create_user
-from project_name.ext.database import db
-from project_name.models import Product
+from practice_project_deployment_aws.ext.auth import create_user
+from practice_project_deployment_aws.ext.database import db
+from practice_project_deployment_aws.models import Product
 
 
 def create_db():

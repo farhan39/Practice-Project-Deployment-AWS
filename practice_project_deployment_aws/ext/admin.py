@@ -4,8 +4,8 @@ from flask_admin.contrib import sqla
 from flask_simplelogin import login_required
 from werkzeug.security import generate_password_hash
 
-from project_name.ext.database import db
-from project_name.models import Product, User
+from practice_project_deployment_aws.ext.database import db
+from practice_project_deployment_aws.models import Product, User
 
 # Proteck admin with login / Monkey Patch
 AdminIndexView._handle_view = login_required(AdminIndexView._handle_view)
